@@ -1,0 +1,21 @@
+# environment
+.env
+*.env
+
+# artifacts
+artifacts/
+checkpoints/
+logs/
+predictions/
+
+# data (если большие файлы)
+data/*.csv
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# venv
+.venv/
+env/

@@ -1,0 +1,7 @@
+pyproject.toml
+src/co2_forecasting.egg-info/PKG-INFO
+src/co2_forecasting.egg-info/SOURCES.txt
+src/co2_forecasting.egg-info/dependency_links.txt
+src/co2_forecasting.egg-info/top_level.txt
+src/forecasting/__init__.py
+src/forecasting/collect_data.py
