@@ -35,6 +35,7 @@ This project implements an end-to-end, reproducible forecasting pipeline:
 
 ## Project Structure
 
+```text
 co2-forecasting/
 │
 ├── src/
