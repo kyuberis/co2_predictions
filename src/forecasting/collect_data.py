@@ -181,7 +181,7 @@ def fetch_all_ned(url: str, headers: Dict[str, str], params: Dict, sleep_s: floa
     return all_records
 
 
-def download_ned(cfg: PipelineConfig, name: str, start_date: str, end_date: str, classification: int = 27, point: int = 0, activity: int = 1) -> pd.DataFrame:
+def download_ned(cfg: PipelineConfig, name: str, start_date: str, end_date: str, classification: int = 2, point: int = 0, activity: int = 1) -> pd.DataFrame:
     """Download one NED dataset by name."""
     params = {
         "point":                      point,
